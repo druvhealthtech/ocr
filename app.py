@@ -4,7 +4,7 @@
 # import io
 # import threading
 # from PIL import Image
-from flask import Flask, request, jsonify
+# from flask import Flask, request, jsonify
 # import fitz
 # import cv2
 # import numpy as np
@@ -13,7 +13,7 @@ from flask import Flask, request, jsonify
 # import multiprocessing
 
 # shutup.please()
-app = Flask(__name__)
+# app = Flask(__name__)
 
 # backend_url = 'http://192.168.1.75:8080/'
 # report_url = backend_url + 'api/report'
@@ -90,9 +90,13 @@ app = Flask(__name__)
 #         print("OCR: FAILED")
 #     print("OCR request sent to server, response:", response.json())
 
-@app.route('/', methods=['GET'])
-def upload_pdf():
-    return "Hardik";
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return "Hello Back4apper!"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080)

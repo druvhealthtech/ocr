@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Working directory
-WORKDIR /ocrService
+WORKDIR /app
 
 # Copy requirements file and install dependencies
 COPY requirements.txt requirements.txt

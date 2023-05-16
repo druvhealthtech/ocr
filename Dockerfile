@@ -1,6 +1,8 @@
 # DockerfileCopy code# Base image
 FROM python:3.9-slim
 
+CMD ["python -m pip install paddlepaddle -i https://pypi.tuna.tsinghua.edu.cn/simple"]
+
 # Working directory
 WORKDIR /app
 

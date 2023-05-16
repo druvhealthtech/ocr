@@ -16,3 +16,4 @@ Flask-Mail
 Flask-RESTful
 Flask-Script
 requests
+paddleocr>=2.0.1

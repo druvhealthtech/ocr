@@ -3,17 +3,5 @@ gunicorn==20.1.0
 Werkzeug==2.1.1
 Jinja2==3.1.0
 MarkupSafe==2.1.1
-itsdangerous==2.1.1
-click==8.1.2
-SQLAlchemy==1.4.29
-Flask-SQLAlchemy==2.5.1
-Flask-Migrate
-Flask-Login
-Flask-WTF
-WTForms
-Flask-Cors
-Flask-Mail
-Flask-RESTful
-Flask-Script
 requests
 paddleocr>=2.0.1

@@ -8,7 +8,7 @@ click==8.1.2
 SQLAlchemy==1.4.29
 Flask-SQLAlchemy==2.5.1
 Flask-Migrate
-Flask-Login=
+Flask-Login
 Flask-WTF
 WTForms
 Flask-Cors

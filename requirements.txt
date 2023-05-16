@@ -7,7 +7,6 @@ itsdangerous==2.1.1
 click==8.1.2
 SQLAlchemy==1.4.29
 Flask-SQLAlchemy==2.5.1
-Flask-Migrate==3.1.1
 Flask-Login==0.5.0
 Flask-WTF==1.0.3
 WTForms==3.0.2

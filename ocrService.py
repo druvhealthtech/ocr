@@ -90,7 +90,7 @@ app = Flask(__name__)
 #         print("OCR: FAILED")
 #     print("OCR request sent to server, response:", response.json())
 
-@app.route('/scanPdf', methods=['GET'])
+@app.route('/', methods=['GET'])
 def upload_pdf():
     return "Hardik";
 
